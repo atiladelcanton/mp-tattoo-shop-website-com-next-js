@@ -1,55 +1,36 @@
-# Tattoo Shop - Website com Next.js
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Inicie sua prática com Next.js criando uma página comercial para um tatuador hipotético chamado Sandro Luz. Crie, do começo ao fim, um projeto Next.js.
+## Getting Started
 
-## 🤓 Antes de começar
+First, run the development server:
 
-Neste mini projeto não há template/boilerplate inicial. Você deverá começar o projeto do zero.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🔨 Requisitos
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Inicialize o projeto do zero usando o `create-next-app`
-- Crie 4 páginas para a "Sandro Luz Tattoo Shop":
-  - Home
-  - Serviços
-  - Sobre
-  - Contato
-- Utilize todos os recursos nativos do Next.js, tais como: `next/link`, `next/image`, `next/font`;
-- O botão de contato (tanto na navbar quanto na página de contato) deverá ser um link para a funcionalidade [conversa em um clique](https://faq.whatsapp.com/5913398998672934) do WhatsApp. Este link deverá abrir em uma nova página;
-- Utilize o App Router (em detrimento do Pages Router);
-- Utilize as imagens diretamente do Figma (exportando-as);
-- Como sugestão, faça o CSS usando TailwindCSS.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🔨 Desafio extra para quem quer ir além
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Adicione alguma animação. Pode ser na própria imagem e nos textos da home ou na navbar, ao trocar de link, por exemplo.
+## Learn More
 
-## 🎨 Design Sugerido
+To learn more about Next.js, take a look at the following resources:
 
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Figma
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-🔗 [Link do design](https://www.figma.com/community/file/1362183399183292915/mini-projeto-tattoo-shop-website-com-next-js)
+## Deploy on Vercel
 
-## 👉🏽 Sobre esse mini-projeto
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### O que você irá praticar:
-
-#### Next.js
-
-- `create-next-app`
-- `next/link`
-- `next/image`
-- `next/font`
-- App Router
-- Nested Routes e Layouts
-- Server components
-
-#### TailwindCSS
-
-- Design "pixel-perfect" com TailwindCSS
-
-### Pré-requisitos
-
-Nenhum pré-requisito com Next.js. Conhecimento de React básico é necessário.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

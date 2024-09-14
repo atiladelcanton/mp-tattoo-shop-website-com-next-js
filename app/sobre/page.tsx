@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import sign from '@/app/_assets/sign.png';
 import portrait from '@/app/_assets/Portrait.png';
 import { islandMoment } from '../_lib/fonts';
 export default function Servicos() {
